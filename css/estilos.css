@@ -1,32 +1,91 @@
+*{
+    font-family: sans-serif;
+}
+:root{
+    --principalcolor: #1098ad;
+    --colordelaweb: #444;
+
+}
 body{
-    border-top: 10px solid #1098ad;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    
+    border-top: 10px solid #1098ad;
+    display: flex;
+    color: var(--colordelaweb);
 }
-#encabezado{
-    padding: 20px, 40px, 20px, 40px;
+header{
     background-color: #f7f7f7;
+    padding: 20px 40px 20px 40px;
+    height: 70px;
+    margin: 0px 0px 60px 0px;
+    
     
 }
-.container{
-
-width: 800px;
-margin: 0 auto;
+.contenedor{
+    width: 800px;
+    margin: 0 auto;
 }
-a:hover{
-    color: orangered;
-    
-}
-nav{
-    font-size: 18px;
-    
-}
-
 h1{
-    color: #1098ad;
+    padding: 0;
+    margin: 0;
     font-size: 26px;
     text-transform: uppercase;
     font-style: italic;
+    color: #1098ad;
+    margin-bottom: 15px;
 }
+h1:first-letter{
+    font-style: normal;
+    margin-left: 50px;
+}
+nav{
+    color: #1098ad;
+    font-size: 18px;
+    
+    
+}
+a:link{
+    color: #1098ad;
+    text-decoration: none;
+    justify-content: space-between;
+}
+a{
+    margin-right: 40px;
+    margin-top: 10px;
+}
+a:hover{
+    color: orangered;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-weight: bold;
+}
+h2{
+    color: var(--principalcolor);
+    font-size: 40px;
+}
+#laura{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding: 0;
+}
+#codigo{
+     width: 100%;
+     height: auto;
+}
+p{
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: var(--principalcolor);
+}
+
